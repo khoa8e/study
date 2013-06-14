@@ -1,0 +1,449 @@
+﻿/*---------------*/
+/* Layout Blocks */
+/*---------------*/
+body 
+{
+    margin: 0px;
+    border: 0px;
+    background-color: #000;
+}
+
+header#page_header
+{
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header#page_header div.headerBar
+{
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    height: 69px;
+    background-color: #0a2549;
+    z-index: 1;
+}
+
+header#page_header a.header
+{
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 163px;
+    border: 0px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    z-index: 5;
+}
+
+header#page_header img.header
+{
+    position: relative;
+    height: 100px;
+    width: 163px;
+    border: 0px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    z-index: 5;
+}
+
+header#page_header section.logout
+{
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 300px;
+    color: #B7A358;
+    /*font-size: 12px;*/
+    z-index: 11;
+    text-align: right;
+}
+
+header#page_header section.logout a
+{
+    color: #B79358;
+}
+
+header#page_header section.logout a:hover
+{
+    color: #dd0000;
+}
+
+section#page_middle
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+    margin: 0px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+footer#page_footer
+{
+    display: block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #0a2549;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #B79358;
+    font-size: 12px;
+}
+
+h1
+{
+    color: #000;
+    margin: 10px auto 15px auto;
+    font-size: 18px;
+}
+
+/*-------*/
+/* Login */
+/*-------*/
+section#login table
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+
+section#login table td:first-child
+{
+    text-align: right;
+    padding-right: 5px;
+    width: 40%;
+}
+
+section#login table td:last-child
+{
+    text-align: left;
+}
+
+section#login table tr:last-child td
+{
+    color: #aa0000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section#login table input.textBox
+{
+    width: 150px;
+}
+
+a.logout
+{
+    font-size: 12px;
+    color: #B78635;
+}
+
+a.logout:hover
+{
+    color: #B79358;
+}
+
+/*--------*/
+/* Search */
+/*--------*/
+a.search 
+{ 
+    /*display: block; 
+    position: absolute; */
+    top: 8px; 
+    right: 2%; 
+    padding-right: 2px;
+    width: 40px; 
+    height: 40px; 
+}
+
+img.search 
+{ 
+    width: 40px; 
+    height: 40px; 
+    border: 0px; 
+}
+
+section#search.aboveList
+{
+    display: none;
+    margin-bottom: 15px;
+}
+
+section#search.aboveList table
+{
+    background-color: #BCC7D2;
+    border: 1px solid #9796A2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#search table
+{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#search td:nth-child(1)
+{
+    font-size: 12px;
+    font-family: Arial, Sans-Serif;
+    text-align: right;
+    width: 45%;
+}
+
+section#search td:nth-child(2)
+{
+    text-align: left;
+    width: 55%;
+}
+
+section#search table input
+{
+    width: 150px;
+}
+
+section#search tr:last-child td input
+{
+    width: 100px;
+}
+
+
+
+/*--------------*/
+/* Transactions */
+/*--------------*/
+section#transactionList
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+section#transactionList table
+{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #9796A2;
+    border-collapse:collapse;
+    border-spacing:0;
+    padding: 0px;
+}
+
+section#transactionList tr
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+section#transactionList tr:nth-of-type(even)
+{
+    background-color: #BCC7D2;
+}
+
+section#transactionList tr:nth-of-type(odd)
+{
+    background-color: #DBE2E9;
+}
+
+section#transactionList tr:first-child
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #3D6389;
+    border-bottom: 1px solid #9796A2;
+}
+
+section#transactionList tr:nth-child(1) td
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+section#transactionList td
+{
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+section#transactionList td:nth-child(4n), td:nth-child(7)
+{
+    text-align: left;
+}
+
+section#transactionList section#pages
+{
+    width: 96%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #3D6389;
+    border-bottom: 1px solid #9796A2;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+section#transactionList section#pages a
+{
+    margin-left: 15px; 
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section#transactionList section#pages a:hover
+{
+    color: #aa0000;
+}
+
+section#transactionList section#pages span
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px; 
+    margin-right: 15px;
+    text-decoration: none;
+    text-decoration: underline overline;
+}
+
+section#transactionList section#pages span.pn
+{
+    text-decoration: none;
+    color: #9796A2;
+}
+
+/*--------------*/
+/* Subscriptions */
+/*--------------*/
+section#subscriptionList
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+section#subscriptionList table
+{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #9796A2;
+    border-collapse:collapse;
+    border-spacing:0;
+    padding: 0px;
+}
+
+section#subscriptionList tr
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+section#subscriptionList tr:nth-of-type(even)
+{
+    background-color: #BCC7D2;
+}
+
+section#subscriptionList tr:nth-of-type(odd)
+{
+    background-color: #DBE2E9;
+}
+
+section#subscriptionList tr:first-child
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #3D6389;
+    border-bottom: 1px solid #9796A2;
+}
+
+section#subscriptionList tr:nth-child(1) td
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+section#subscriptionList td
+{
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+section#subscriptionList td:nth-child(4n), td:nth-child(7)
+{
+    text-align: left;
+}
+
+section#subscriptionList section#pages
+{
+    width: 96%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #3D6389;
+    border-bottom: 1px solid #9796A2;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+section#subscriptionList section#pages a
+{
+    margin-left: 15px; 
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section#subscriptionList section#pages a:hover
+{
+    color: #aa0000;
+}
+
+section#subscriptionList section#pages span
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px; 
+    margin-right: 15px;
+    text-decoration: none;
+    text-decoration: underline overline;
+}
+
+section#subscriptionList section#pages span.pn
+{
+    text-decoration: none;
+    color: #9796A2;
+}
+
+.iconToolbar
+{
+    float:right;
+    white-space:nowrap;
+}
